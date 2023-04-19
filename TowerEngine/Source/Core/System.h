@@ -16,7 +16,7 @@ public:
 	//Actor
 	void InitializeActors();
 	void TickActorComponents();
-	static void SpawnActor(Actor* actor);
+	static Actor* SpawnActor(Actor* actor);
 
 	//Input
 	void HandleInput();

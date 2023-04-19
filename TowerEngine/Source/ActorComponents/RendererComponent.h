@@ -1,10 +1,13 @@
 #pragma once
+#ifndef RENDERERCOMPONENT_H
+#define RENDERERCOMPONENT_H
 #include "ActorComponent.h"
+#endif
 
 class RendererComponent : public ActorComponent
 {
 public:
-	RendererComponent();
+	RendererComponent(Actor* owner);
 	void Start();
 	void Update();
 

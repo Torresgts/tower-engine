@@ -3,6 +3,7 @@
 
 Actor::Actor()
 {
+	transformComponent = new TransformComponent();
 }
 
 void Actor::StartComponents()

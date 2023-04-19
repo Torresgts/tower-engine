@@ -1,8 +1,8 @@
 #include "Player.h"
 
+
 Player::Player()
 {
-	AddActorComponent(new SpriteComponent("././Images/monkey.png"));
-	//AddActorComponent(new RendererComponent());
-	//AddActorComponent(new ActorComponent());
+	AddActorComponent(new SpriteComponent(this, "././Images/monkey.png"));
+	input = static_cast<InputComponent*>(AddActorComponent(new InputComponent(this)));
 }

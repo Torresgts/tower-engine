@@ -10,12 +10,13 @@ int main()
 {
 	System* system = new System();
 
-	system->SpawnActor(new Player());
+	Actor* player = system->SpawnActor(new Player());
 	
-	//It should be right before game loop to work as the start of every actor and system
+	//InitializeActors should be right before game loop to work as the start of every actor and system
 	//Probably itsn`t the better approach, but should work for now
 	//Game logic should not be exactly here
 	system->InitializeActors();
+
 	while (!WindowShouldClose())
 	{
 		system->HandleInput();

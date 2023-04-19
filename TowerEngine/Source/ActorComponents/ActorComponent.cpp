@@ -1,8 +1,13 @@
 #include "ActorComponent.h"
 
+
+ActorComponent::ActorComponent(Actor* owner)
+{
+}
+
 void ActorComponent::Start()
 {
-	std::cout << "Actor Start" << std::endl;
+	//std::cout << "ActorComponent Start" << std::endl;
 }
 
 void ActorComponent::Update()

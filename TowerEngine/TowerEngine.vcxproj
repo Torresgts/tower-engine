@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Dummy.h" />
     <ClInclude Include="External\spdlog\include\spdlog\async.h" />
     <ClInclude Include="External\spdlog\include\spdlog\async_logger-inl.h" />
     <ClInclude Include="External\spdlog\include\spdlog\async_logger.h" />
@@ -230,17 +231,19 @@
     <ClInclude Include="External\spdlog\include\spdlog\stopwatch.h" />
     <ClInclude Include="External\spdlog\include\spdlog\tweakme.h" />
     <ClInclude Include="External\spdlog\include\spdlog\version.h" />
+    <ClInclude Include="Source\ActorComponents\InputComponent.h" />
+    <ClInclude Include="Source\ActorComponents\TransformComponent.h" />
     <ClInclude Include="Source\Core\Actor.h" />
-    <ClInclude Include="ActorComponent.h" />
     <ClInclude Include="Source\Player.h" />
-    <ClInclude Include="RendererComponent.h" />
     <ClInclude Include="Source\ActorComponents\ActorComponent.h" />
     <ClInclude Include="Source\ActorComponents\RendererComponent.h" />
     <ClInclude Include="Source\ActorComponents\SpriteComponent.h" />
-    <ClInclude Include="SpriteComponent.h" />
     <ClInclude Include="Source\Core\System.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dummy.cpp" />
+    <ClCompile Include="Source\ActorComponents\InputComponent.cpp" />
+    <ClCompile Include="Source\ActorComponents\TransformComponent.cpp" />
     <ClCompile Include="Source\Core\Actor.cpp" />
     <ClCompile Include="Source\Player.cpp" />
     <ClCompile Include="Source\ActorComponents\ActorComponent.cpp" />

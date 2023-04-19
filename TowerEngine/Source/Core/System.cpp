@@ -15,10 +15,12 @@ void System::InitializeActors()
 	}
 }
 
-void System::SpawnActor(Actor* actor)
+Actor* System::SpawnActor(Actor* actor)
 {
 	//Actor* actor = new Actor();
 	actors.push_back(actor);
+
+	return actor;
 }
 
 void System::HandleInput()

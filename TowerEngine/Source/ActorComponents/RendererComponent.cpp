@@ -1,6 +1,6 @@
 #include "RendererComponent.h"
 
-RendererComponent::RendererComponent()
+RendererComponent::RendererComponent(Actor* owner) : ActorComponent(owner)
 {
 }
 

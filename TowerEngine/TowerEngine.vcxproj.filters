@@ -21,16 +21,7 @@
     <ClInclude Include="Source\Core\Actor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ActorComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteComponent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Source\Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RendererComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\ActorComponents\ActorComponent.h">
@@ -351,6 +342,15 @@
     <ClInclude Include="External\spdlog\include\spdlog\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActorComponents\TransformComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ActorComponents\InputComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\ActorComponents\ActorComponent.cpp">
@@ -372,6 +372,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TowerEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActorComponents\TransformComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ActorComponents\InputComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
